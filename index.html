@@ -11,6 +11,7 @@
             background-color: #74c69d;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
         p {
             line-height: 30px;
             letter-spacing: 1px;
@@ -19,9 +20,11 @@
         .button {
             background-color: #13747d;
             color: white;
-            padding: 25px;
-            text-decoration-color: aliceblue;
+            padding: 40px;
             border-radius: 25px;
+            line-height: 25px;
+            letter-spacing: 2px;
+
         }
 
         .fotos {
@@ -33,6 +36,10 @@
             font-weight: bold;
             letter-spacing: 1px;
         }
+
+        .jpg {
+            border-radius: 50%;
+        }
     </style>
 
 
@@ -42,19 +49,16 @@
     <a id="foto"></a>
     <h1>Marcelo De Lima</h1>
     <h3>Links Abaixo: <h3>
-            <h4 class="button" href="#"><a href="#quem e marcelo">Quem sou eu</a><br>
-
-                <a href="#habilidade">Habilidades</a><br>
-
-                <a href="#musica">Música</a><br>
-
-                <a href="#series">Series favoritas</a><br>
-
-                <a href="#filmes">Filmes favoritos</a><br>
-
-                <a href="#jogos">Jogos favoritos</a><br>
-
-                <a href="#final">Final da pagina</a><br>
+            <h4>
+                <ul class="button" href="#">
+                    <li> <a href="#quem e marcelo">Quem sou eu</a><br></li>
+                    <li> <a href="#habilidade">Habilidades</a><br></li>
+                    <li> <a href="#musica">Música</a><br></li>
+                    <li> <a href="#series">Series favoritas</a><br></li>
+                    <li> <a href="#filmes">Filmes favoritos</a><br></li>
+                    <li> <a href="#jogos">Jogos favoritos</a><br></li>
+                    <li> <a href="#final">Final da pagina</a><br></li>
+                </ul>
             </h4>
             <br>
             <br>
@@ -85,6 +89,8 @@
             <br>
             <a id="jogos"></a>
             <h2>Top 5 Jogos</h2>
+            <img class="jpg" src="https://www.acasadocogumelo.com/wp-content/uploads/2021/07/the-last-of-us.jpg"
+                alt="the last of us 2" width="350px">
             <ol class="listas">
                 <li>Call of Duty</li>
                 <li>Fifa</li>
