@@ -1,0 +1,32 @@
+body {
+  background-color: #74c69d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.button {
+  background-color: #13747d;
+  color: white;
+  padding: 40px;
+  border-radius: 25px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.fotos {
+  border-radius: 15%;
+}
+
+.listas {
+  line-height: 29px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.jpg {
+  border-radius: 50%;
+}
